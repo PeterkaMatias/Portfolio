@@ -135,4 +135,20 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     background-color: grey;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: aliceblue;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid aliceblue;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
+
+.boton:hover{
+    transform: scale3d(1.03);
+    background-color: aliceblue;
+    color: grey;
+    box-shadow: 0 0 25px aliceblue;
+}
+
