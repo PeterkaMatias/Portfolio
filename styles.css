@@ -69,6 +69,8 @@ section{
     padding: 5rem 9% 5rem;
 }
 
+/* Sector Inicio */
+
 .inicio{
     display: flex;
     justify-content: center;
@@ -157,10 +159,59 @@ span{
     margin-right: 1rem;
 }
 
-.izquierda img{
-    border-radius: 10%;
-    width: 50rem;
+/* Sector Sobremi */
+
+.sobremi {
+    background-color: #4f4f4f;
+    color: white;
 }
+
+.sobremi .titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    color: aliceblue;
+}
+
+.sobremi-detalles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.izquierda img {
+    border-radius: 5rem;
+    width: 50rem;
+    max-width: 100%;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+}
+
+.detalles-contenedor {
+    background-color: #2e2e2e;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #00000050;
+}
+
+.detalles-contenedor h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.detalles-contenedor p {
+    font-size: 1.4rem;
+    color: #ddd;
+}
+
+/* Sector Experiencia y Proyectos */
 
 .experiencia h2,
 .proyectos h2,
@@ -185,6 +236,8 @@ span{
     box-shadow: 0 0 10px #00000050;
 }
 
+/* Sector Contacto */
+
 .contacto {
     text-align: center;
 }
@@ -205,6 +258,8 @@ span{
     border: 1px solid #ccc;
     resize: none;
 }
+
+/* Sector Footer */
 
 footer {
     text-align: center;
