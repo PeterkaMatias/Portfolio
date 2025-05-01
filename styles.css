@@ -63,3 +63,76 @@ nav a.activo{
     color: aliceblue;
     border-bottom: 3px solid aliceblue;
 }
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: grey;
+}
+
+.inicio .inicio-contenido h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+span{
+    color: aliceblue;
+}
+
+.inicio-contenido h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.inicio-img{
+    border-radius: 50%;
+}
+
+.inicio-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid aliceblue;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.inicio-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.logo-redes a{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid aliceblue;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+}
+
+.logo-redes a:hover{
+    transform: scale(1.3) translateY(-5px);
+    background-color: aliceblue;
+    box-shadow: 0 0 25px aliceblue;
+}
+
+.boton{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: grey;
+}
