@@ -216,7 +216,7 @@ span{
 .experiencia h2,
 .proyectos h2,
 .contacto h2 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
     color: aliceblue;
 }
@@ -234,6 +234,7 @@ span{
     border-radius: 1rem;
     color: white;
     box-shadow: 0 0 10px #00000050;
+    font-size: 1.5rem;
 }
 
 /* Sector Contacto */
